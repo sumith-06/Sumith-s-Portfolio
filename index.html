@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sumith's Portfolio!</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <nav>
-      <div class="left"><b>Sumith's Portfolio</b></div>
+      <div class="left"><b style="color:#02182B">Sumith's Portfolio</b></div>
       <div class="right">
         <ul>
           <li><a href="#">Home</a></li>
@@ -23,13 +23,14 @@
 
   <main>
     <section class="firstSection">
-      <div class="leftSection">Hello! My Name Is
+      <div class="leftSection">
+    <div style="color: crimson;">Hello! My Name Is</div>
         <div><span class="name">Sumith</span></div>
-        <div>I am a passionate</div>
-        <span id="element"></span>
+        <div style="color: crimson;">I am a passionate</div>
+         <span id="element"></span>
       </div>
       <div class="rightSection">
-        <img src="./images/image5.webp" alt="img">
+        <img src="img3.png" alt="img">
       </div>
     </section>      
 
@@ -37,12 +38,13 @@
     <section class="secondSection">
       <span class="text">What I have learnt so far</span>
       <h1>Skills</h1>
+      <div class="box"></div>
     </section>
   </main>
  <!-- Load library from the CDN -->
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-  <!-- Setup and start animation! -->
+ <!-- Setup and start animation! -->
   <script>
     var typed = new Typed('#element', {
       strings: ['Web Developer'],
