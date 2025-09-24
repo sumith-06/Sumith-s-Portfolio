@@ -1,87 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sumith's Portfolio!</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="left"><b style="color:#02182B">Sumith's Portfolio</b></div>
-      <div class="right">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact Me</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sumith's Portfolio!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left"><b style="color: #02182b">Sumith's Portfolio</b></div>
+        <div class="right">
+          <ul>
+            <li>
+              <a href="http://127.0.0.1:5500/index.html" target="_blank"
+                >Home</a
+              >
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-  <main>
-    <section class="firstSection">
-      <div class="leftSection">
-    <div style="color: crimson;">Hello! My Name Is</div>
-        <div><span class="name">Sumith</span></div>
-        <div style="color: crimson;">I am a passionate</div>
-         <span id="element"></span>
-      </div>
-      <div class="rightSection">
-        <img src="img2.jpg" alt="img">
-      </div>
-    </section>      
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          <div class="highlight">Hello! My Name Is</div>
+          <div><span class="name">Sumith</span></div>
+          <div class="highlight">I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="img2.jpg" alt="img" />
+        </div>
+      </section>
 
-    <hr>
-    <section class="secondSection">
-      <div>
-        <span class="text">What I have learnt so far</span>
-      <h1>Skills</h1>
-      </div>
-    </section>
-    <section class="thirdSection">
-      <div class="skills">
-        <div class="box" style="width: 60px;">
-          <img src="html-logo.png" alt="">
-          <p>HTML</p>
+      <hr />
+      <section class="secondSection">
+        <div>
+          <span class="text">What I have learnt so far</span>
+          <h1>Skills</h1>
         </div>
-        <div class="box" style="width: 60px;"> 
-          <img src="css-log0.png" alt="">
-          <p>CSS</p>
+      </section>
+      <section class="thirdSection">
+        <div class="skills">
+          <div class="box" style="width: 60px">
+            <img src="html-logo.png" alt="" />
+            <p>HTML</p>
+          </div>
+          <div class="box" style="width: 60px">
+            <img src="css-log0.png" alt="" />
+            <p>CSS</p>
+          </div>
+          <div class="box">
+            <img src="js-logo.png" alt="" />
+            <p>JavaScript</p>
+          </div>
+          <div class="box">
+            <img src="github-logo.png" alt="" />
+            <p>Github</p>
+          </div>
+          <div class="box">
+            <img src="ai-logo.png" alt="" />
+            <p>AI & Tools</p>
+          </div>
+          <div class="box">
+            <img src="mongodb.png" alt="" />
+            <p>mongoDB</p>
+          </div>
         </div>
-        <div class="box">
-          <img src="js-logo.png" alt="">
-          <p>JavaScript</p>
+      </section>
+      <hr />
+      <footer>
+        <div class="footer-container">
+          <div class="identity-column">
+            <h1>Agiri Sai Sumith</h1>
+            <p>&copy;Agiri Sai Sumith 2025.all rights reserved.</p>
+            <a href="mailto:agirisumith06@gmail.com" class="email"
+              >agirisumith06@gmail.com</a
+            >
+          </div>
+          <div class="links-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact Me</a></li>
+            </ul>
+            <a href="#" class="btn-resume" download="">Download Resume(PDF)</a>
+          </div>
+          <div class="social-media-column">
+            <h3>Social Media</h3>
+            <div class="social-icons">
+              <a
+                href="http://www.linkedin.com/in/agiri-sai-sumith"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/sumith-06" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://www.instagram.com/sumithhh__" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
         </div>
-        <div class="box">
-          <img src="github-logo.png" alt="">
-          <p>Github</p>
-        </div>
-        <div class="box">
-          <img src="ai-logo.png" alt="">
-          <p>AI & Tools</p>
-        </div>
-        <div class="box">
-          <img src="mongodb.png" alt="">
-          <p>mongoDB</p>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer>
+      </footer>
+    </main>
+    <footer></footer>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-  </footer>
- <!-- Load library from the CDN -->
- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
- <!-- Setup and start animation! -->
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['Web Developer'],
-      typeSpeed: 100,
-    });
-  </script>
-</body>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer"],
+        typeSpeed: 100,
+      });
+    </script>
+  </body>
 </html>
