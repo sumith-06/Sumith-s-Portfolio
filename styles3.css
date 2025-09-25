@@ -9,6 +9,11 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
+
+.container{
+  padding: 10px;
+  margin-bottom: 50px;
+}
 header {
   display: flex;
   justify-content: center;
