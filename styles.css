@@ -432,3 +432,143 @@ textarea:focus{
   color: rgb(165, 164, 164);
   font-size: 1.5rem;
 }
+
+/* ---------------- Responsive Design ---------------- */
+
+@media (max-width: 1024px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .firstSection {
+    flex-direction: column;
+    text-align: center;
+    margin: 80px 0;
+  }
+
+  .firstSection > div {
+    width: 80%;
+  }
+
+  .leftSection {
+    font-size: 2.2rem;
+  }
+
+  .secondSection {
+    margin: 10px auto;
+    max-width: 90vw;
+  }
+
+  .skillsSection {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .leftSection {
+    font-size: 1.8rem;
+  }
+
+  .rightSection img {
+    width: 60%;
+  }
+
+  .about-me {
+    padding: 10px;
+  }
+
+  .about-text h1 {
+    font-size: 2rem;
+  }
+
+  .about-text h2 {
+    font-size: 1rem;
+  }
+
+  .projects-container {
+    padding: 5px;
+  }
+
+  .project {
+    margin: 20px 0;
+    padding: 10px;
+  }
+
+  .contact-container {
+    padding: 20px;
+  }
+
+  .contact h1 {
+    font-size: 2rem;
+  }
+
+  .contact-form label {
+    font-size: 1rem;
+  }
+
+  .contact-form button {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav ul li {
+    margin: 5px;
+  }
+
+  .leftSection {
+    font-size: 1.5rem;
+  }
+
+  .rightSection img {
+    width: 80%;
+  }
+
+  .about-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-text h2 {
+    font-size: 0.9rem;
+  }
+
+  .about-text p {
+    font-size: 0.9rem;
+  }
+
+  .skills-list {
+    gap: 4px;
+  }
+
+  .skills-list li {
+    font-size: 0.85rem;
+  }
+
+  .project h1,
+  .project h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact h1 {
+    font-size: 1.6rem;
+  }
+
+  .contact-form label {
+    font-size: 0.9rem;
+  }
+}
